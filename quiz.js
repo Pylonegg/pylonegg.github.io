@@ -5,11 +5,11 @@ let totalQuestions = 0;
 let score = 0;
 
 function loadCategories() {
-    fetch('az104.json')
+    fetch('/az104.json')
         .then(response => response.json())
         .then(data => {
             questions = data;
-            let categories = ['All', ...new Set(data.map(q => q.category))];
+            let categories = [...new Set(data.map(q => q.category))];
             let categorySelect = document.getElementById('category');
             categories.forEach((category, index) => {
                 let option = document.createElement('option');
