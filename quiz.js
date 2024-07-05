@@ -1,76 +1,144 @@
-let questions = []; // Array to hold quiz questions
-
-// Function to fetch JSON data
-async function fetchQuizData() {
-    try {
-        const response = await fetch('az104.json');
-        if (!response.ok) {
-            throw new Error('Failed to fetch quiz data');
-        }
-        questions = await response.json();
-        startQuiz();
-    } catch (error) {
-        console.error('Error fetching quiz data:', error);
-        alert('Failed to load quiz data. Please try again later.');
-    }
-}
-
-// Initialize quiz
-fetchQuizData();
-
+let questions = []; // This will hold our questions data
+let selectedChoice = null; // Track the currently selected choice
 let currentQuestionIndex = 0;
+let totalQuestions = 0;
 let score = 0;
 
+function loadCategories() {
+    fetch('az104.json')
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            let categories = ['All', ...new Set(data.map(q => q.category))];
+            let categorySelect = document.getElementById('category');
+            categories.forEach((category, index) => {
+                let option = document.createElement('option');
+                option.value = index;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Error loading categories:', error));
+}
+
 function startQuiz() {
-    displayQuestion();
-}
+    let categorySelect = document.getElementById('category');
+    let selectedCategory = categorySelect.options[categorySelect.selectedIndex].textContent;
 
-function displayQuestion() {
-    const question = questions[currentQuestionIndex];
-    document.querySelector('.question').textContent = question.question;
+    let numQuestionsSelect = document.getElementById('num-questions');
+    totalQuestions = parseInt(numQuestionsSelect.value);
+
+    let filteredQuestions = questions;
+    if (selectedCategory !== 'All') {
+        filteredQuestions = questions.filter(q => q.category === selectedCategory);
+    }
+
+    if (filteredQuestions.length === 0) {
+        alert('No questions available for selected category.');
+        return;
+    }
+
+    categorySelect.disabled = true;
+    numQuestionsSelect.disabled = true;
+    document.getElementById('quiz-progress').style.display = 'block';
+    document.getElementById('category-selection').style.display = 'none';
+    document.getElementById('quiz-content').style.display = 'block';
+
+    // Randomize question selection
+    filteredQuestions = shuffle(filteredQuestions);
+
+    displayNextQuestion();
+
+    function displayNextQuestion() {
+        if (currentQuestionIndex < totalQuestions) {
+            let questionData = filteredQuestions[currentQuestionIndex];
+            document.getElementById('question').textContent = questionData.question;
     
-    const choicesContainer = document.querySelector('.choices');
-    choicesContainer.innerHTML = ''; // Clear previous choices
-
-    question.choices.forEach((choice, index) => {
-        const choiceElement = document.createElement('div');
-        const radioInput = document.createElement('input');
-        radioInput.type = 'radio';
-        radioInput.name = 'answer';
-        radioInput.value = index;
-        choiceElement.appendChild(radioInput);
-        choiceElement.appendChild(document.createTextNode(choice));
-        choicesContainer.appendChild(choiceElement);
-    });
-}
-
-function checkAnswer() {
-    const selectedOption = document.querySelector('input[name="answer"]:checked');
+            let choicesContainer = document.getElementById('choices');
+            choicesContainer.innerHTML = ''; // Clear previous choices
     
-    if (selectedOption) {
-        const answerIndex = parseInt(selectedOption.value, 10);
-        const question = questions[currentQuestionIndex];
-
-        if (answerIndex === question.correct) {
-            document.getElementById('result').textContent = "Correct!";
-            score++;
-        } else {
-            document.getElementById('result').textContent = `Wrong! The correct answer is ${question.choices[question.correct]}`;
-        }
-
-        // Move to next question or end quiz
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
-            displayQuestion();
+            questionData.choices.forEach((choice, index) => {
+                let label = document.createElement('label');
+                label.textContent = choice;
+                label.classList.add('choice-label');
+                label.setAttribute('data-index', index);
+                label.onclick = function() {
+                    selectChoice(this);
+                };
+    
+                choicesContainer.appendChild(label);
+            });
+    
+            updateQuestionCount();
         } else {
             endQuiz();
         }
-    } else {
-        alert("Please select an answer.");
+    }
+
+    window.selectChoice = function(choiceElement) {
+        let newIndex = parseInt(choiceElement.getAttribute('data-index'));
+        if (selectedChoice !== null) {
+            selectedChoice.classList.remove('selected');
+        }
+        selectedChoice = choiceElement;
+        selectedChoice.classList.add('selected');
+    };
+
+    window.submitAnswer = function() {
+        if (!selectedChoice) {
+            alert('Please select an answer.');
+            return;
+        }
+
+        let answerIndex = parseInt(selectedChoice.getAttribute('data-index'));
+        let correctIndex = filteredQuestions[currentQuestionIndex].correct;
+
+        if (answerIndex === correctIndex) {
+            score++;
+            document.getElementById('result').textContent = 'Correct!';
+        } else {
+            document.getElementById('result').textContent = `Wrong! The correct answer is: ${filteredQuestions[currentQuestionIndex].choices[correctIndex]}`;
+        }
+
+        currentQuestionIndex++;
+        if (currentQuestionIndex < totalQuestions) {
+            displayNextQuestion();
+        } else {
+            endQuiz();
+        }
+    };
+
+    function endQuiz() {
+        document.getElementById('quiz-progress').style.display = 'none';
+        document.getElementById('quiz-content').style.display = 'none';
+        document.getElementById('quiz-summary').style.display = 'block';
+        document.getElementById('score').textContent = `You scored ${score} out of ${totalQuestions} (${Math.round((score / totalQuestions) * 100)}%)`;
+    }
+
+    function updateQuestionCount() {
+        let questionCountText = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
+        document.getElementById('question-count').textContent = questionCountText;
     }
 }
 
-function endQuiz() {
-    const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = `<h1>Quiz complete!</h1><p>You scored ${score} out of ${questions.length} (${Math.round(score / questions.length * 100)}%).</p>`;
+// Fisher-Yates shuffle function
+function shuffle(array) {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (currentIndex !== 0) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+  
+    return array;
 }
+
+loadCategories();

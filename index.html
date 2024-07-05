@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Choice Quiz</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .question {
-            margin-bottom: 10px;
-        }
-        .choices {
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>AZ-104 Quiz</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <div id="quiz-container">
-        <h1>Multiple Choice Quiz</h1>
+    <div class="quiz-container">
+        <h1>AZ-104 Quiz</h1>
         <div id="quiz">
-            <div class="question"></div>
-            <form id="choices-form">
-                <div class="choices"></div>
-                <button type="button" onclick="checkAnswer()">Submit Answer</button>
-            </form>
-            <div id="result"></div>
+            <div id="category-selection">
+                <label for="category">Select a category:</label>
+                <select id="category" class="styled-select"></select>
+                <br>
+                <label for="num-questions">Number of Questions:</label>
+                <select id="num-questions" class="styled-select">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                <button class="start-button" onclick="startQuiz()">Start Quiz</button>
+            </div>
+            <div id="quiz-progress" style="display: none;">
+                <p id="question-count"></p>
+            </div>
+            <div id="quiz-content" style="display: none;">
+                <h2 id="question"></h2>
+                <div id="choices" class="choices"></div>
+                <button class="submit-button" onclick="submitAnswer()">Submit Answer</button>
+                <p id="result"></p>
+            </div>
+            <div id="quiz-summary" style="display: none;">
+                <h2>Quiz complete!</h2>
+                <p id="score"></p>
+            </div>
         </div>
+        <div class="created-by">created by Chi Adiukwu</div>
     </div>
 
-    <script src="quiz.js"></script>
+
+    <script src="quiz.js"></script><!-- Link to external JavaScript file -->
 </body>
 </html>
