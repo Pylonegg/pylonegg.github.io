@@ -1,0 +1,4712 @@
+[
+    {
+        "question": "What is Azure Resource Manager?",
+        "choices": [
+            "A. A management group",
+            "B. A tool to manage on-premises resources",
+            "C. A deployment and management service",
+            "D. A database service"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the default replication strategy for Azure Storage?",
+        "choices": [
+            "A. Locally-redundant storage",
+            "B. Zone-redundant storage",
+            "C. Geo-redundant storage",
+            "D. Read-access geo-redundant storage"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of the following is used to manage identities and access in Azure?",
+        "choices": [
+            "A. Azure Functions",
+            "B. Azure Active Directory",
+            "C. Azure DevOps",
+            "D. Azure Monitor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main purpose of Azure Traffic Manager?",
+        "choices": [
+            "A. To manage traffic in virtual networks",
+            "B. To route incoming traffic across multiple locations",
+            "C. To monitor network performance",
+            "D. To secure web applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used to create and manage virtual machines in Azure?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure Virtual Machines",
+            "C. Azure Logic Apps",
+            "D. Azure Functions"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is Azure Blob Storage primarily used for?",
+        "choices": [
+            "A. Structured data storage",
+            "B. Unstructured data storage",
+            "C. Hosting virtual machines",
+            "D. Network routing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service is designed to simplify the process of building and deploying applications?",
+        "choices": [
+            "A. Azure App Service",
+            "B. Azure DevOps",
+            "C. Azure Monitor",
+            "D. Azure Key Vault"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is Azure Policy used for?",
+        "choices": [
+            "A. To define and enforce organizational standards",
+            "B. To manage virtual machines",
+            "C. To monitor application performance",
+            "D. To store secrets and keys"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which tool helps you estimate the costs of Azure services?",
+        "choices": [
+            "A. Azure Cost Management",
+            "B. Azure Pricing Calculator",
+            "C. Azure Monitor",
+            "D. Azure Advisor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Key Vault manage?",
+        "choices": [
+            "A. Virtual networks",
+            "B. Secret keys and certificates",
+            "C. Web applications",
+            "D. Network traffic"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides distributed denial-of-service (DDoS) protection in Azure?",
+        "choices": [
+            "A. Azure Firewall",
+            "B. Azure DDoS Protection",
+            "C. Azure Security Center",
+            "D. Azure Sentinel"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the role of Azure Advisor?",
+        "choices": [
+            "A. To monitor security threats",
+            "B. To provide best practices recommendations",
+            "C. To manage billing and subscriptions",
+            "D. To create and manage resources"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure DevOps provide?",
+        "choices": [
+            "A. Integrated development tools",
+            "B. Data analysis services",
+            "C. Virtual networking capabilities",
+            "D. Web hosting services"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which Azure service allows you to run event-driven code without managing servers?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure Functions",
+            "C. Azure Logic Apps",
+            "D. Azure App Service"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the use of Azure Virtual Network (VNet)?",
+        "choices": [
+            "A. To deploy web applications",
+            "B. To create isolated network environments",
+            "C. To store data",
+            "D. To monitor applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used to host containerized applications in Azure?",
+        "choices": [
+            "A. Azure Virtual Machines",
+            "B. Azure Kubernetes Service",
+            "C. Azure App Service",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main feature of Azure SQL Database?",
+        "choices": [
+            "A. NoSQL database management",
+            "B. Managed relational database service",
+            "C. Real-time analytics",
+            "D. Data warehousing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service provides data warehousing capabilities?",
+        "choices": [
+            "A. Azure SQL Database",
+            "B. Azure Data Lake",
+            "C. Azure Synapse Analytics",
+            "D. Azure Cosmos DB"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the purpose of Azure Active Directory (AD)?",
+        "choices": [
+            "A. To manage storage accounts",
+            "B. To handle identity and access management",
+            "C. To deploy virtual machines",
+            "D. To create web applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tool is used to manage Azure resources from a command-line interface?",
+        "choices": [
+            "A. Azure Portal",
+            "B. Azure CLI",
+            "C. Azure DevOps",
+            "D. Azure Advisor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is Azure Sentinel?",
+        "choices": [
+            "A. A storage solution",
+            "B. A security information and event management (SIEM) system",
+            "C. A virtual network service",
+            "D. A database service"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service provides serverless computing?",
+        "choices": [
+            "A. Azure Virtual Machines",
+            "B. Azure Functions",
+            "C. Azure SQL Database",
+            "D. Azure Monitor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Monitor do?",
+        "choices": [
+            "A. Manages identity and access",
+            "B. Hosts virtual machines",
+            "C. Collects and analyzes telemetry data",
+            "D. Secures applications"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which service is used to automate workflows in Azure?",
+        "choices": [
+            "A. Azure Logic Apps",
+            "B. Azure DevOps",
+            "C. Azure Functions",
+            "D. Azure Kubernetes Service"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the purpose of Azure Security Center?",
+        "choices": [
+            "A. To manage storage",
+            "B. To provide security management and threat protection",
+            "C. To deploy web applications",
+            "D. To create virtual networks"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service is used for big data analytics?",
+        "choices": [
+            "A. Azure SQL Database",
+            "B. Azure Data Lake",
+            "C. Azure Synapse Analytics",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is Azure Automation used for?",
+        "choices": [
+            "A. To manage billing",
+            "B. To automate frequent, time-consuming tasks",
+            "C. To monitor network traffic",
+            "D. To deploy web applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tool can you use to visually design workflows in Azure?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Logic Apps",
+            "C. Azure CLI",
+            "D. Azure Key Vault"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of Azure Backup?",
+        "choices": [
+            "A. To manage storage",
+            "B. To provide backup and recovery solutions",
+            "C. To deploy virtual machines",
+            "D. To monitor application performance"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service provides distributed computing power?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure Functions",
+            "C. Azure Batch",
+            "D. Azure DevOps"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the main feature of Azure Cosmos DB?",
+        "choices": [
+            "A. Relational database management",
+            "B. NoSQL database with global distribution",
+            "C. Data warehousing",
+            "D. Big data analytics"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides scalable and managed Redis caches?",
+        "choices": [
+            "A. Azure Cache for Redis",
+            "B. Azure Data Lake",
+            "C. Azure Synapse Analytics",
+            "D. Azure Blob Storage"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What does Azure Front Door provide?",
+        "choices": [
+            "A. Identity management",
+            "B. Global routing for web traffic",
+            "C. Virtual machine hosting",
+            "D. Network security"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tool is used to manage and govern Azure subscriptions?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure Cost Management",
+            "C. Azure Blueprints",
+            "D. Azure Active Directory"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the use of Azure File Storage?",
+        "choices": [
+            "A. To store and manage files in the cloud",
+            "B. To deploy web applications",
+            "C. To manage virtual machines",
+            "D. To monitor network traffic"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which Azure service is used for real-time event processing?",
+        "choices": [
+            "A. Azure Data Factory",
+            "B. Azure Stream Analytics",
+            "C. Azure Monitor",
+            "D. Azure DevOps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Cognitive Services provide?",
+        "choices": [
+            "A. Identity management",
+            "B. Artificial intelligence capabilities",
+            "C. Network security",
+            "D. Data storage"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service allows you to manage infrastructure as code in Azure?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Resource Manager templates",
+            "C. Azure Monitor",
+            "D. Azure Kubernetes Service"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of Azure Site Recovery?",
+        "choices": [
+            "A. To deploy web applications",
+            "B. To provide disaster recovery",
+            "C. To manage storage",
+            "D. To monitor application performance"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service helps in creating a highly available application architecture?",
+        "choices": [
+            "A. Azure Virtual Machines",
+            "B. Azure Availability Zones",
+            "C. Azure SQL Database",
+            "D. Azure Key Vault"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the role of Azure Load Balancer?",
+        "choices": [
+            "A. To manage virtual networks",
+            "B. To distribute incoming network traffic",
+            "C. To store data",
+            "D. To monitor application performance"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides a fully managed platform for building, deploying, and scaling web apps?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure App Service",
+            "C. Azure Logic Apps",
+            "D. Azure Functions"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure ExpressRoute provide?",
+        "choices": [
+            "A. VPN connectivity",
+            "B. High-speed private connection to Azure",
+            "C. Virtual machine hosting",
+            "D. Web application hosting"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service is designed to handle big data workloads?",
+        "choices": [
+            "A. Azure Synapse Analytics",
+            "B. Azure SQL Database",
+            "C. Azure Key Vault",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the primary purpose of Azure App Service?",
+        "choices": [
+            "A. To manage virtual machines",
+            "B. To build and host web apps",
+            "C. To monitor applications",
+            "D. To secure data"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides a managed database service that is compatible with MySQL?",
+        "choices": [
+            "A. Azure SQL Database",
+            "B. Azure Database for MySQL",
+            "C. Azure Cosmos DB",
+            "D. Azure Data Lake"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main use of Azure Data Lake?",
+        "choices": [
+            "A. To store relational data",
+            "B. To store non-relational data",
+            "C. To store data for big data analytics",
+            "D. To store backup files"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which Azure service allows you to analyze large datasets interactively?",
+        "choices": [
+            "A. Azure Data Lake",
+            "B. Azure Synapse Analytics",
+            "C. Azure SQL Database",
+            "D. Azure Monitor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of Azure Application Gateway?",
+        "choices": [
+            "A. To deploy web applications",
+            "B. To manage virtual networks",
+            "C. To provide a web traffic load balancer",
+            "D. To monitor network traffic"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which tool helps you automate Azure resource deployment?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure DevOps",
+            "C. Azure Resource Manager templates",
+            "D. Azure Monitor"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the purpose of Azure Logic Apps?",
+        "choices": [
+            "A. To build automated workflows",
+            "B. To deploy web applications",
+            "C. To manage virtual machines",
+            "D. To store data"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which Azure service offers real-time data ingestion and processing?",
+        "choices": [
+            "A. Azure Data Factory",
+            "B. Azure Stream Analytics",
+            "C. Azure Synapse Analytics",
+            "D. Azure DevOps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the role of Azure Active Directory B2C?",
+        "choices": [
+            "A. To manage virtual machines",
+            "B. To deploy web applications",
+            "C. To provide identity management for consumer applications",
+            "D. To monitor network traffic"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which service is used to build event-driven workflows in Azure?",
+        "choices": [
+            "A. Azure Logic Apps",
+            "B. Azure DevOps",
+            "C. Azure Kubernetes Service",
+            "D. Azure Monitor"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What does Azure Automation allow you to do?",
+        "choices": [
+            "A. Automate the deployment of web applications",
+            "B. Automate frequent, time-consuming tasks",
+            "C. Monitor network traffic",
+            "D. Manage virtual machines"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used to monitor the performance and availability of applications?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Monitor",
+            "C. Azure Logic Apps",
+            "D. Azure Key Vault"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the primary use of Azure Virtual Machines?",
+        "choices": [
+            "A. To store data",
+            "B. To host virtual servers",
+            "C. To deploy web applications",
+            "D. To monitor applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service is used to build and deploy containerized applications?",
+        "choices": [
+            "A. Azure App Service",
+            "B. Azure Kubernetes Service",
+            "C. Azure Functions",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Bastion provide?",
+        "choices": [
+            "A. VPN connectivity",
+            "B. Secure and seamless RDP and SSH access",
+            "C. Virtual machine hosting",
+            "D. Data storage"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service provides a platform for building, managing, and connecting scalable applications?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure App Service",
+            "C. Azure Logic Apps",
+            "D. Azure Functions"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of Azure Sentinel?",
+        "choices": [
+            "A. To provide identity management",
+            "B. To provide a SIEM and SOAR solution",
+            "C. To manage virtual machines",
+            "D. To store data"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used for hosting websites and web applications?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure App Service",
+            "C. Azure Logic Apps",
+            "D. Azure Functions"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of Azure SQL Managed Instance?",
+        "choices": [
+            "A. To store unstructured data",
+            "B. To provide a fully managed SQL Server instance",
+            "C. To deploy web applications",
+            "D. To monitor application performance"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides a scalable event broker for integrating cloud applications?",
+        "choices": [
+            "A. Azure Logic Apps",
+            "B. Azure Event Grid",
+            "C. Azure Monitor",
+            "D. Azure Key Vault"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Service Bus provide?",
+        "choices": [
+            "A. A relational database service",
+            "B. A messaging service for connecting applications",
+            "C. A platform for hosting web applications",
+            "D. A data storage service"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used to build and run applications without managing the underlying infrastructure?",
+        "choices": [
+            "A. Azure Virtual Machines",
+            "B. Azure Functions",
+            "C. Azure SQL Database",
+            "D. Azure Monitor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of Azure Active Directory Domain Services (AD DS)?",
+        "choices": [
+            "A. To provide identity management",
+            "B. To provide managed domain services",
+            "C. To monitor network traffic",
+            "D. To manage virtual machines"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is designed to help manage the lifecycle of applications?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Logic Apps",
+            "C. Azure Functions",
+            "D. Azure Monitor"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the purpose of Azure API Management?",
+        "choices": [
+            "A. To deploy web applications",
+            "B. To manage and secure APIs",
+            "C. To store data",
+            "D. To monitor applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service provides continuous integration and continuous delivery (CI/CD)?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Functions",
+            "C. Azure App Service",
+            "D. Azure Key Vault"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the main feature of Azure Synapse Analytics?",
+        "choices": [
+            "A. Real-time data ingestion",
+            "B. Integrated analytics service",
+            "C. Data warehousing",
+            "D. Big data processing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service helps secure Azure applications by managing user identities and access?",
+        "choices": [
+            "A. Azure Key Vault",
+            "B. Azure Active Directory",
+            "C. Azure Monitor",
+            "D. Azure DevOps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of Azure Firewall?",
+        "choices": [
+            "A. To store data",
+            "B. To deploy web applications",
+            "C. To manage network security",
+            "D. To monitor applications"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which service provides scalable, on-demand access to computing resources in Azure?",
+        "choices": [
+            "A. Azure Functions",
+            "B. Azure Virtual Machines",
+            "C. Azure SQL Database",
+            "D. Azure Monitor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Data Factory provide?",
+        "choices": [
+            "A. Data storage",
+            "B. Data movement and transformation",
+            "C. Real-time data ingestion",
+            "D. Data warehousing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main purpose of Azure Logic Apps?",
+        "choices": [
+            "A. To store data",
+            "B. To build automated workflows",
+            "C. To deploy web applications",
+            "D. To manage virtual machines"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service helps in implementing DevOps practices in Azure?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure DevOps",
+            "C. Azure App Service",
+            "D. Azure Functions"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the primary use of Azure Virtual Network (VNet)?",
+        "choices": [
+            "A. To store data",
+            "B. To create isolated network environments",
+            "C. To monitor applications",
+            "D. To deploy web applications"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service provides a distributed ledger for developing blockchain applications?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Blockchain Service",
+            "C. Azure App Service",
+            "D. Azure Key Vault"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of Azure Policy?",
+        "choices": [
+            "A. To manage billing",
+            "B. To define and enforce organizational standards",
+            "C. To monitor network traffic",
+            "D. To manage virtual machines"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service helps you estimate and track Azure costs?",
+        "choices": [
+            "A. Azure Monitor",
+            "B. Azure Cost Management and Billing",
+            "C. Azure Advisor",
+            "D. Azure Policy"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does Azure Functions provide?",
+        "choices": [
+            "A. Managed relational databases",
+            "B. Serverless computing",
+            "C. Data storage",
+            "D. Network security"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which service is used to build and manage Docker container images?",
+        "choices": [
+            "A. Azure Kubernetes Service",
+            "B. Azure Container Registry",
+            "C. Azure App Service",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of Azure Private Link?",
+        "choices": [
+            "A. To manage virtual networks",
+            "B. To connect services securely to your network",
+            "C. To deploy web applications",
+            "D. To store data"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which Azure service is used to store and manage secrets, keys, and certificates?",
+        "choices": [
+            "A. Azure DevOps",
+            "B. Azure Key Vault",
+            "C. Azure Monitor",
+            "D. Azure Logic Apps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the primary function of Azure Active Directory (Azure AD)?",
+        "choices": [
+            "A. To manage storage",
+            "B. To provide identity and access management",
+            "C. To deploy virtual machines",
+            "D. To monitor applications"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is optimized for storing massive amounts of unstructured data?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which protocol can be used to access data from Azure Blob Storage?",
+        "choices": [
+            "A. SMB",
+            "B. NFS",
+            "C. HTTP",
+            "D. FTP"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service allows for asynchronous processing of messages?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is a key feature of Azure Table Storage?",
+        "choices": [
+            "A. Supports relational data",
+            "B. Schemaless design",
+            "C. Optimized for streaming video",
+            "D. Uses the SMB protocol"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service would you use to store diagnostic logs, metrics, and crash dumps?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service is ideal for serving images or documents directly to a browser?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum size of a message in Azure Queue Storage?",
+        "choices": [
+            "A. 16 KB",
+            "B. 32 KB",
+            "C. 64 KB",
+            "D. 128 KB"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service would you use to store configuration files that need to be accessed by multiple virtual machines?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is designed to store non-relational structured data?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What feature of Azure Blob Storage allows users to access data from anywhere in the world?",
+        "choices": [
+            "A. SMB protocol",
+            "B. Global replication",
+            "C. HTTP/HTTPS access",
+            "D. Schemaless design"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which replication option should you choose for the highest durability and availability if a primary region is unavailable?",
+        "choices": [
+            "A. Locally Redundant Storage (LRS)",
+            "B. Zone-Redundant Storage (ZRS)",
+            "C. Geo-Redundant Storage (GRS)",
+            "D. Read-Access Geo-Redundant Storage (RA-GRS)"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which storage account type supports all storage services including blobs, tables, files, queues, and unmanaged Azure virtual machine disks?",
+        "choices": [
+            "A. BlobStorage",
+            "B. Storage (General-Purpose V1)",
+            "C. StorageV2 (General-Purpose V2)",
+            "D. BlockBlobStorage"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary advantage of using Premium performance tier for storage accounts?",
+        "choices": [
+            "A. Lower storage costs",
+            "B. Higher durability",
+            "C. Supports all storage services",
+            "D. Greater demands on I/O backed by SSD disks"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which access tier should be used for data that needs to be stored for long-term and can tolerate several hours of retrieval latency?",
+        "choices": [
+            "A. Hot",
+            "B. Cool",
+            "C. Cold",
+            "D. Archive"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the main use of page blobs in Azure Storage?",
+        "choices": [
+            "A. Storing text data",
+            "B. Storing binary data",
+            "C. Storing VHD files for unmanaged disks",
+            "D. Message queueing between application components"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which storage account replication option can incur an outage if the entire datacenter is unavailable?",
+        "choices": [
+            "A. LRS",
+            "B. ZRS",
+            "C. GRS",
+            "D. GZRS"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "When creating a storage account, which option is only available for Standard performance tier?",
+        "choices": [
+            "A. Performance Tier",
+            "B. Account Kind",
+            "C. Replication Option",
+            "D. Access Tier"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which replication option would you use to ensure data availability in the event of a primary region failure?",
+        "choices": [
+            "A. LRS",
+            "B. ZRS",
+            "C. GRS",
+            "D. RA-GRS"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the required minimum storage duration for data stored in the Cool access tier?",
+        "choices": [
+            "A. 7 days",
+            "B. 30 days",
+            "C. 60 days",
+            "D. 90 days"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which account type is NOT supported for the Archive access tier?",
+        "choices": [
+            "A. StorageV2",
+            "B. BlobStorage",
+            "C. ZRS",
+            "D. RA-GZRS"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum retention period for soft delete in Azure Blob Storage?",
+        "choices": [
+            "A. 180 days",
+            "B. 365 days",
+            "C. 90 days",
+            "D. 730 days"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service offers four access tiers: Hot, Cool, Cold, and Archive?",
+        "choices": [
+            "A. Azure Files",
+            "B. Azure Blob Storage",
+            "C. Azure Table Storage",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Blob Storage, what is the purpose of the Blob Change Feed?",
+        "choices": [
+            "A. To track access patterns",
+            "B. To track create, modify, and delete operations",
+            "C. To automatically replicate data",
+            "D. To manage access policies"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which storage tier in Azure Blob Storage is suitable for data that will rarely be accessed and is stored offline?",
+        "choices": [
+            "A. Hot",
+            "B. Cool",
+            "C. Cold",
+            "D. Archive"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What happens when you delete a blob with soft delete enabled in Azure Storage?",
+        "choices": [
+            "A. The blob is permanently deleted",
+            "B. The blob is marked for deletion but can be recovered",
+            "C. The blob is moved to another storage account",
+            "D. The blob is archived"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is best suited for I/O-intensive applications such as databases?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Queue Storage",
+            "C. Azure Table Storage",
+            "D. Premium Storage Accounts"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "To enable snapshots for Azure File Shares, what is required?",
+        "choices": [
+            "A. An Azure Recovery Services vault",
+            "B. An Azure Backup Policy",
+            "C. Soft delete enabled",
+            "D. Blob versioning enabled"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the maximum number of rules you can define for Lifecycle Management?",
+        "choices": [
+            "A. 50 rules",
+            "B. 100 rules",
+            "C. 25 rules",
+            "D. 10 rules"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage tool provides functionality for managing data across blobs, files, queues, and tables?",
+        "choices": [
+            "A. AzCopy",
+            "B. Azure PowerShell",
+            "C. Storage Explorer",
+            "D. Azure CLI"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary benefit of using Azure Blob Storage's Block Blob type?",
+        "choices": [
+            "A. Real-time data ingestion",
+            "B. Low-latency access",
+            "C. Cost-effective storage",
+            "D. High durability"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service provides the ability to create and manage access policies for Azure Storage resources?",
+        "choices": [
+            "A. Azure AD",
+            "B. Azure Key Vault",
+            "C. Azure Storage Firewall",
+            "D. Shared Access Signatures (SAS)"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of enabling versioning for Azure Blob Storage?",
+        "choices": [
+            "A. To reduce storage costs",
+            "B. To retain previous versions of blobs",
+            "C. To improve performance",
+            "D. To automate data replication"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the purpose of AzCopy?",
+        "choices": [
+            "A. To manage access policies",
+            "B. To copy data between storage accounts",
+            "C. To track blob changes",
+            "D. To configure lifecycle management"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage feature can be used to automatically delete data that has reached the end of its lifecycle?",
+        "choices": [
+            "A. Soft delete",
+            "B. Blob versioning",
+            "C. Lifecycle Management",
+            "D. Access tiers"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary advantage of using Azure Files over Blob Storage?",
+        "choices": [
+            "A. Lower storage costs",
+            "B. Better performance",
+            "C. Support for SMB protocol",
+            "D. Integrated lifecycle management"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the highest availability and redundancy for data?",
+        "choices": [
+            "A. General-purpose v2 storage accounts",
+            "B. Locally redundant storage",
+            "C. Geo-redundant storage",
+            "D. Cool access tier"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of Blob Level Tiering in Azure Storage?",
+        "choices": [
+            "A. To manage access policies at the blob level",
+            "B. To automatically replicate blobs between accounts",
+            "C. To migrate data between storage tiers",
+            "D. To improve durability of blobs"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service is used to automate the movement of data between Azure storage tiers based on defined rules?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure Policy",
+            "C. Azure Blob Storage",
+            "D. Lifecycle Management"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What does Azure Blob Storage's Append Blob type allow?",
+        "choices": [
+            "A. Random access to blob data",
+            "B. Efficient uploading of large blobs",
+            "C. Continuous appending of data to an existing blob",
+            "D. Compression of blob data"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage feature provides the ability to recover data that might be accidentally deleted or overwritten?",
+        "choices": [
+            "A. Snapshots",
+            "B. Soft delete",
+            "C. Blob versioning",
+            "D. Access tiers"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the purpose of the Blob Index Match?",
+        "choices": [
+            "A. To track blob modifications",
+            "B. To recover deleted blobs",
+            "C. To filter blobs based on indexed properties",
+            "D. To change blob access tiers"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to set up role-based access control (RBAC) for data access?",
+        "choices": [
+            "A. Azure Active Directory",
+            "B. Azure Blob Storage",
+            "C. Azure Storage Explorer",
+            "D. Azure PowerShell"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the main advantage of using Azure Premium Storage accounts over Standard Storage accounts?",
+        "choices": [
+            "A. Lower latency",
+            "B. Lower cost",
+            "C. Greater durability",
+            "D. Integrated lifecycle management"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides support for tracking create, modify, and delete operations for blob objects?",
+        "choices": [
+            "A. Blob versioning",
+            "B. Blob Change Feed",
+            "C. Blob Snapshots",
+            "D. Blob Storage Explorer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary function of Azure Storage Explorer?",
+        "choices": [
+            "A. To manage access tiers",
+            "B. To configure lifecycle management rules",
+            "C. To manage data across storage services",
+            "D. To integrate with Azure Active Directory"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage feature can be used to enforce HTTPS traffic for all access to storage accounts?",
+        "choices": [
+            "A. Blob Change Feed",
+            "B. Shared Access Signatures (SAS)",
+            "C. Azure Storage Firewall",
+            "D. Azure AD authentication"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary benefit of using Azure Blob Storage's Page Blob type?",
+        "choices": [
+            "A. Efficient handling of large amounts of data",
+            "B. Low-latency access",
+            "C. Support for multiple storage tiers",
+            "D. Real-time data ingestion"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the purpose of the Azure Storage Firewall and Virtual Network Service Endpoints?",
+        "choices": [
+            "A. To manage blob replication",
+            "B. To enforce network security controls",
+            "C. To track blob access patterns",
+            "D. To automate data lifecycle management"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to create and manage blob snapshots?",
+        "choices": [
+            "A. Azure Files",
+            "B. Azure Blob Storage",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What does Azure Storage Account's replication mode determine?",
+        "choices": [
+            "A. The cost of storage",
+            "B. The availability and durability of data",
+            "C. The speed of data access",
+            "D. The storage access tiers"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to define policies for automated blob lifecycle management?",
+        "choices": [
+            "A. Azure Files",
+            "B. Azure Queue Storage",
+            "C. Azure Table Storage",
+            "D. Azure Blob Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary advantage of using Azure Queue Storage?",
+        "choices": [
+            "A. Real-time data processing",
+            "B. Low-cost storage for large amounts of data",
+            "C. High durability and availability",
+            "D. Batch processing of jobs"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to enforce access policies based on IP address ranges?",
+        "choices": [
+            "A. Azure AD authentication",
+            "B. Azure Storage Firewall",
+            "C. Shared Access Signatures (SAS)",
+            "D. Azure Policy"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the main benefit of using Azure Queue Storage for application scalability?",
+        "choices": [
+            "A. Low-latency data access",
+            "B. Guaranteed message delivery",
+            "C. Ability to handle large data files",
+            "D. Asynchronous message processing"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the primary purpose of the Storage Analytics feature?",
+        "choices": [
+            "A. To track blob replication",
+            "B. To monitor storage performance and usage",
+            "C. To automate data tiering",
+            "D. To manage access control"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage feature provides the ability to copy large amounts of data to and from Azure Storage using the command-line interface?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure Storage Explorer",
+            "C. AzCopy",
+            "D. Azure PowerShell"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary purpose of Azure Storage's Premium Blob Storage?",
+        "choices": [
+            "A. To optimize blob access for high availability",
+            "B. To reduce storage costs for rarely accessed data",
+            "C. To ensure secure data transfer using HTTPS",
+            "D. To store large data files asynchronously"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to store structured NoSQL data in the cloud?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the purpose of the SAS (Shared Access Signature) token?",
+        "choices": [
+            "A. To manage access policies",
+            "B. To enforce data encryption",
+            "C. To delegate limited access to resources",
+            "D. To enable blob versioning"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to manage large volumes of unstructured data such as media files or backups?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary purpose of Azure Blob Storage's Blob Indexing feature?",
+        "choices": [
+            "A. To compress blob data for efficient storage",
+            "B. To improve blob data retrieval times",
+            "C. To index metadata for efficient querying",
+            "D. To replicate blob data across regions"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is designed for storing and accessing large volumes of unstructured data through RESTful interfaces?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of enabling CORS (Cross-Origin Resource Sharing) for Azure Storage services?",
+        "choices": [
+            "A. To manage access policies",
+            "B. To optimize blob retrieval times",
+            "C. To delegate limited access to resources",
+            "D. To allow secure access to resources from web browsers"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to store and manage binary large objects (BLOBs) such as documents and media files?",
+        "choices": [
+            "A. Azure Table Storage",
+            "B. Azure Queue Storage",
+            "C. Azure Files",
+            "D. Azure Blob Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the primary benefit of using the Shared Access Signature (SAS) token?",
+        "choices": [
+            "A. To enforce blob versioning",
+            "B. To delegate limited access to resources",
+            "C. To track blob access patterns",
+            "D. To improve data replication"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to enforce authentication and authorization for accessing storage resources?",
+        "choices": [
+            "A. Azure AD authentication",
+            "B. Azure Storage Firewall",
+            "C. Shared Access Signatures (SAS)",
+            "D. Azure Role-Based Access Control (RBAC)"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary function of the Azure Storage Replication feature?",
+        "choices": [
+            "A. To manage blob replication across regions",
+            "B. To ensure high availability and durability of data",
+            "C. To automate data archiving",
+            "D. To optimize storage costs"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to create and manage tables for structured NoSQL data?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary benefit of using Azure Storage's Blob Access Tiers feature?",
+        "choices": [
+            "A. To automate data replication",
+            "B. To enforce data encryption",
+            "C. To optimize storage costs",
+            "D. To improve blob access speeds"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to manage queues for reliable message processing between application components?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the purpose of the Blob Service REST API?",
+        "choices": [
+            "A. To manage access policies",
+            "B. To optimize blob retrieval times",
+            "C. To provide programmatic access to blob data",
+            "D. To enforce data encryption"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to store and manage data in a distributed key-value store?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Table Storage",
+            "C. Azure Files",
+            "D. Azure Queue Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary benefit of using Azure Storage's Premium File Shares?",
+        "choices": [
+            "A. Lower cost for large-scale storage",
+            "B. High throughput and low latency",
+            "C. Support for SMB protocol",
+            "D. Integrated lifecycle management"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage feature provides the ability to define rules for automated deletion or tiering of blobs based on age or other criteria?",
+        "choices": [
+            "A. Blob Indexing",
+            "B. Blob Change Feed",
+            "C. Access Tiers",
+            "D. Lifecycle Management"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the main benefit of using Azure Queue Storage for messaging?",
+        "choices": [
+            "A. Real-time data processing",
+            "B. High durability and availability",
+            "C. Asynchronous message processing",
+            "D. Guaranteed message delivery"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service provides the ability to enforce custom access policies for individual blobs or containers?",
+        "choices": [
+            "A. Azure Storage Firewall",
+            "B. Azure AD authentication",
+            "C. Shared Access Signatures (SAS)",
+            "D. Azure Key Vault"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "In Azure Storage, what is the primary purpose of enabling Storage Analytics Logging?",
+        "choices": [
+            "A. To monitor storage performance and usage",
+            "B. To enforce data encryption",
+            "C. To optimize storage costs",
+            "D. To manage blob access patterns"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is required to use Azure Storage blob object replication?",
+        "choices": [
+            "A. Blob versioning enabled on the source account",
+            "B. Blob change feed enabled on the source account",
+            "C. Blob versioning and change feed enabled on both source and destination accounts",
+            "D. Azure Data Lake Storage Gen2 support enabled"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which option cannot be used with blob object replication?",
+        "choices": [
+            "A. Archival tier",
+            "B. Immutable snapshots",
+            "C. Blob snapshots",
+            "D. Hierarchical namespace"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "How many replication rules can you define using JSON?",
+        "choices": [
+            "A. Up to 5",
+            "B. Up to 50",
+            "C. Up to 1000",
+            "D. Unlimited"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which option is not a filter scope option for blob object replication?",
+        "choices": [
+            "A. Prefix match",
+            "B. Regex match",
+            "C. Suffix match",
+            "D. Exact match"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum number of destination accounts supported by a single source account in blob object replication?",
+        "choices": [
+            "A. 1",
+            "B. 2",
+            "C. 5",
+            "D. 10"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "After creating a replication policy, what is the state of the destination container?",
+        "choices": [
+            "A. Read-only",
+            "B. Write-only",
+            "C. Read-write",
+            "D. Append-only"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure component is required to manage customer-managed keys for encryption in Azure Storage?",
+        "choices": [
+            "A. Azure Key Vault",
+            "B. Azure Active Directory",
+            "C. Azure Storage Explorer",
+            "D. Azure App Service"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What encryption standard is used by default in Azure Storage accounts?",
+        "choices": [
+            "A. AES 128-bit encryption",
+            "B. AES 192-bit encryption",
+            "C. AES 256-bit encryption",
+            "D. RSA 2048-bit encryption"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which operation in Azure Storage Explorer allows asynchronous blob copying between storage accounts?",
+        "choices": [
+            "A. Copy",
+            "B. Move",
+            "C. Paste",
+            "D. Sync"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What command-line utility is recommended for large-scale data transfers with Azure Storage?",
+        "choices": [
+            "A. Azure CLI",
+            "B. PowerShell",
+            "C. AzCopy",
+            "D. Azure Storage Explorer"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which blob type is optimized for append operations?",
+        "choices": [
+            "A. Page blobs",
+            "B. Block blobs",
+            "C. Append blobs",
+            "D. Snapshots"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum size of a block blob?",
+        "choices": [
+            "A. 64 TiB",
+            "B. 190 TiB",
+            "C. 8 TiB",
+            "D. 5 TiB"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "How many blocks can be added to an append blob?",
+        "choices": [
+            "A. 10,000",
+            "B. 50,000",
+            "C. 100,000",
+            "D. Unlimited"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of Blob versioning in Azure Storage?",
+        "choices": [
+            "A. To manage blob permissions",
+            "B. To capture the state of a blob when modified or deleted",
+            "C. To provide encryption keys for blobs",
+            "D. To enable tiered storage for blobs"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service provides a graphical interface for managing Azure Storage?",
+        "choices": [
+            "A. Azure CLI",
+            "B. AzCopy",
+            "C. Azure Key Vault",
+            "D. Azure Storage Explorer"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is required to mount an Azure file share from a Linux virtual machine?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Storage Explorer",
+            "C. net use command",
+            "D. mount command"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service supports file shares and file system protocols like SMB and NFS?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is required to connect to an Azure file share from outside Azure using SMB 3.0?",
+        "choices": [
+            "A. Open inbound port 445",
+            "B. Use Azure VPN",
+            "C. Install Azure AD Connect",
+            "D. Use Azure Storage Emulator"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum size of a file share that can be created using Azure Files?",
+        "choices": [
+            "A. 1 TiB",
+            "B. 5 TiB",
+            "C. 50 TiB",
+            "D. 100 TiB"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is optimized for large-scale storage of arbitrary data objects like media files and log files?",
+        "choices": [
+            "A. Azure Files",
+            "B. Azure Queue Storage",
+            "C. Azure Table Storage",
+            "D. Azure Blob Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of an Azure Blob Container?",
+        "choices": [
+            "A. To store virtual machine disks",
+            "B. To organize blobs into a hierarchy",
+            "C. To manage Azure file shares",
+            "D. To serve as an endpoint for Azure Storage Explorer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the default encryption standard used for data in Azure Storage accounts?",
+        "choices": [
+            "A. AES 128-bit encryption",
+            "B. AES 192-bit encryption",
+            "C. AES 256-bit encryption",
+            "D. RSA 2048-bit encryption"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service is used for bulk data transfers to and from Azure Storage?",
+        "choices": [
+            "A. Azure CLI",
+            "B. PowerShell",
+            "C. AzCopy",
+            "D. Azure Storage Explorer"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum number of blobs that can be added to an append blob?",
+        "choices": [
+            "A. 5,000",
+            "B. 10,000",
+            "C. 50,000",
+            "D. 100,000"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum capacity of a block blob?",
+        "choices": [
+            "A. 64 TiB",
+            "B. 190 TiB",
+            "C. 8 TiB",
+            "D. 5 TiB"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which blob type is used for efficient uploads and downloads of general-purpose files?",
+        "choices": [
+            "A. Page blobs",
+            "B. Block blobs",
+            "C. Append blobs",
+            "D. Snapshots"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary use case for Azure Files?",
+        "choices": [
+            "A. Large-scale storage of arbitrary data objects",
+            "B. Bulk data transfers",
+            "C. Efficient uploads and downloads",
+            "D. File shares and file system protocols"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which operation is used to synchronize blob copies between two containers?",
+        "choices": [
+            "A. Copy",
+            "B. Move",
+            "C. Paste",
+            "D. Sync"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of Blob versioning in Azure Storage?",
+        "choices": [
+            "A. To manage blob permissions",
+            "B. To capture the state of a blob when modified or deleted",
+            "C. To provide encryption keys for blobs",
+            "D. To enable tiered storage for blobs"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service provides a graphical interface for managing Azure Storage?",
+        "choices": [
+            "A. Azure CLI",
+            "B. AzCopy",
+            "C. Azure Key Vault",
+            "D. Azure Storage Explorer"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is required to mount an Azure file share from a Linux virtual machine?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Storage Explorer",
+            "C. net use command",
+            "D. mount command"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service supports file shares and file system protocols like SMB and NFS?",
+        "choices": [
+            "A. Azure Blob Storage",
+            "B. Azure Files",
+            "C. Azure Queue Storage",
+            "D. Azure Table Storage"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is required to connect to an Azure file share from outside Azure using SMB 3.0?",
+        "choices": [
+            "A. Open inbound port 445",
+            "B. Use Azure VPN",
+            "C. Install Azure AD Connect",
+            "D. Use Azure Storage Emulator"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum size of a file share that can be created using Azure Files?",
+        "choices": [
+            "A. 1 TiB",
+            "B. 5 TiB",
+            "C. 50 TiB",
+            "D. 100 TiB"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure Storage service is optimized for large-scale storage of arbitrary data objects like media files and log files?",
+        "choices": [
+            "A. Azure Files",
+            "B. Azure Queue Storage",
+            "C. Azure Table Storage",
+            "D. Azure Blob Storage"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of an Azure Blob Container?",
+        "choices": [
+            "A. To store virtual machine disks",
+            "B. To organize blobs into a hierarchy",
+            "C. To manage Azure file shares",
+            "D. To serve as an endpoint for Azure Storage Explorer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the default encryption standard used for data in Azure Storage accounts?",
+        "choices": [
+            "A. AES 128-bit encryption",
+            "B. AES 192-bit encryption",
+            "C. AES 256-bit encryption",
+            "D. RSA 2048-bit encryption"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure service is used for bulk data transfers to and from Azure Storage?",
+        "choices": [
+            "A. Azure CLI",
+            "B. PowerShell",
+            "C. AzCopy",
+            "D. Azure Storage Explorer"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum number of blobs that can be added to an append blob?",
+        "choices": [
+            "A. 5,000",
+            "B. 10,000",
+            "C. 50,000",
+            "D. 100,000"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum capacity of a block blob?",
+        "choices": [
+            "A. 64 TiB",
+            "B. 190 TiB",
+            "C. 8 TiB",
+            "D. 5 TiB"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which blob type is used for efficient uploads and downloads of general-purpose files?",
+        "choices": [
+            "A. Page blobs",
+            "B. Block blobs",
+            "C. Append blobs",
+            "D. Snapshots"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary use case for Azure Files?",
+        "choices": [
+            "A. Large-scale storage of arbitrary data objects",
+            "B. Bulk data transfers",
+            "C. Efficient uploads and downloads",
+            "D. File shares and file system protocols"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which operation is used to synchronize blob copies between two containers?",
+        "choices": [
+            "A. Copy",
+            "B. Move",
+            "C. Paste",
+            "D. Sync"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What tab allows you to maintain storage account access either publicly or privately when creating an Azure storage account using the portal?",
+        "choices": [
+            "A. Networking",
+            "B. Data Protection",
+            "C. Encryption",
+            "D. Access Management"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which setting on the Networking tab allows storage account access from specific IP addresses or ranges?",
+        "choices": [
+            "A. Enable Public Access From All Networks",
+            "B. Enable Public Access From Selected Virtual Networks And IP addresses",
+            "C. Disable Public Access And Use Private Access",
+            "D. Allow Access From Trusted Microsoft Services"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the main benefit of configuring virtual network service endpoints for Azure Storage?",
+        "choices": [
+            "A. Allows public access from any IP address",
+            "B. Enhances storage account encryption",
+            "C. Restricts access to a virtual network",
+            "D. Provides access to trusted Microsoft services"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which tab allows configuration of encryption types and support for customer-managed keys when creating an Azure storage account?",
+        "choices": [
+            "A. Data Protection",
+            "B. Access Management",
+            "C. Networking",
+            "D. Encryption"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which access level for Blob Storage allows anonymous read access for blobs only?",
+        "choices": [
+            "A. Private",
+            "B. Blob",
+            "C. Container",
+            "D. None of the above"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What feature can you use to grant temporary access to Azure Storage resources without sharing account keys?",
+        "choices": [
+            "A. Azure Key Vault",
+            "B. Shared Access Signatures (SAS)",
+            "C. Access Management",
+            "D. Stored Access Policies"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "How can you create a SAS token for Azure Storage resources?",
+        "choices": [
+            "A. Using Azure Active Directory",
+            "B. Using Azure CLI",
+            "C. Using Azure Policy",
+            "D. Using Shared Access Signatures"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What does SAS stand for in the context of Azure Storage?",
+        "choices": [
+            "A. Secure Access Signature",
+            "B. Service Access Signature",
+            "C. Shared Access Signature",
+            "D. Special Access Signature"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is a benefit of using stored access policies with SAS tokens?",
+        "choices": [
+            "A. They increase token validity period",
+            "B. They decouple access parameters from the token",
+            "C. They support Azure Key Vault integration",
+            "D. They simplify token management"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which tool can be used to create a SAS token for Azure Storage?",
+        "choices": [
+            "A. Azure Storage Explorer",
+            "B. Azure Active Directory",
+            "C. Azure Resource Manager",
+            "D. Azure Backup"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the maximum number of access policies you can have on a container, table, queue, or file share?",
+        "choices": [
+            "A. 5",
+            "B. 10",
+            "C. 15",
+            "D. 20"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary reason for using Azure Key Vault with Azure Storage?",
+        "choices": [
+            "A. To create managed identities",
+            "B. To manage access keys securely",
+            "C. To configure RBAC roles",
+            "D. To enforce data retention policies"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What authentication method enables identity-based access to Azure Storage?",
+        "choices": [
+            "A. Access keys",
+            "B. Shared Access Signatures (SAS)",
+            "C. Azure AD credentials",
+            "D. Microsoft Entra ID"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which built-in RBAC role in Azure allows read/write/delete permissions for Blob Storage?",
+        "choices": [
+            "A. Storage Blob Data Contributor",
+            "B. Storage Blob Data Owner",
+            "C. Storage Blob Data Reader",
+            "D. Storage Queue Data Contributor"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "At what level can RBAC roles for Blob and Queue Storage be assigned?",
+        "choices": [
+            "A. Container",
+            "B. Storage account",
+            "C. Resource group",
+            "D. All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "How do you manage access keys for an Azure storage account?",
+        "choices": [
+            "A. Using Azure Key Vault",
+            "B. Using Azure Active Directory",
+            "C. By regenerating keys in Azure portal",
+            "D. By using RBAC roles"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the benefit of using managed identities for accessing Azure Storage from Azure resources?",
+        "choices": [
+            "A. It increases access latency",
+            "B. It simplifies access management",
+            "C. It requires manual key management",
+            "D. It supports account-level SAS tokens"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which service can be used to manage cryptographic keys and secrets for Azure Storage?",
+        "choices": [
+            "A. Azure Key Vault",
+            "B. Azure Backup",
+            "C. Azure Policy",
+            "D. Azure Active Directory"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What role does Microsoft Entra ID play in Azure Storage access?",
+        "choices": [
+            "A. It enables direct access to storage keys",
+            "B. It enforces Azure AD credentials for access",
+            "C. It simplifies the creation of SAS tokens",
+            "D. It provides identity-based access control"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the purpose of configuring service endpoints for Azure Storage?",
+        "choices": [
+            "A. To configure service-level backups",
+            "B. To optimize access latency",
+            "C. To restrict access to specific IP addresses",
+            "D. To enhance encryption for stored data"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which option is NOT a valid permission that can be granted through a SAS token?",
+        "choices": [
+            "A. Read",
+            "B. Write",
+            "C. Delete",
+            "D. Update"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What feature can be used to control access to Azure Storage resources based on predefined policies?",
+        "choices": [
+            "A. Azure AD authentication",
+            "B. Azure Policy",
+            "C. Stored Access Policies",
+            "D. Managed Identities"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which Azure tool is used to manage and monitor Azure Storage resources?",
+        "choices": [
+            "A. Azure Key Vault",
+            "B. Azure Monitor",
+            "C. Azure Backup",
+            "D. Azure Policy"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the recommended protocol to use when distributing SAS tokens?",
+        "choices": [
+            "A. HTTP",
+            "B. FTP",
+            "C. HTTPS",
+            "D. SSH"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which tool can be used to create SAS tokens programmatically?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure CLI",
+            "C. Azure Key Vault",
+            "D. Azure Backup"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the role of stored access policies in managing SAS tokens?",
+        "choices": [
+            "A. They increase token validity period",
+            "B. They simplify token management",
+            "C. They decouple access parameters from the token",
+            "D. They are used to create user delegation SAS tokens"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is a limitation of using SAS tokens?",
+        "choices": [
+            "A. They do not support HTTPS",
+            "B. They require direct access to storage keys",
+            "C. They cannot be revoked once issued",
+            "D. They must be manually regenerated"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What benefit does using service endpoints for Azure Storage provide?",
+        "choices": [
+            "A. Allows access from any IP address",
+            "B. Increases network latency",
+            "C. Restricts access to specific subnets",
+            "D. Provides encryption for data at rest"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is the primary difference between SAS tokens and Azure AD authentication for accessing Azure Storage?",
+        "choices": [
+            "A. SAS tokens require managing access policies manually",
+            "B. Azure AD authentication requires RBAC roles",
+            "C. Azure AD authentication supports multi-factor authentication",
+            "D. SAS tokens require direct access to storage keys"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "Which RBAC role allows read-only access to Blob Storage?",
+        "choices": [
+            "A. Storage Blob Data Contributor",
+            "B. Storage Blob Data Owner",
+            "C. Storage Blob Data Reader",
+            "D. Storage Queue Data Contributor"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "What is a benefit of using managed identities with Azure Storage?",
+        "choices": [
+            "A. Requires manual key management",
+            "B. Simplifies access management",
+            "C. Increases latency for access",
+            "D. Provides direct access to storage keys"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Implement and manage storage in Azure",
+        "question": "How can you restrict access to Azure Storage to specific virtual networks or IP ranges?",
+        "choices": [
+            "A. Using managed identities",
+            "B. By configuring service endpoints",
+            "C. By disabling public access",
+            "D. By enabling secure transfer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What was the predecessor of Azure Active Directory (Azure AD)?",
+        "choices": [
+            "A. Microsoft Active Directory",
+            "B. Windows Server Active Directory",
+            "C. Microsoft Entra ID",
+            "D. Microsoft 365"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which technology enables synchronization of on-premises identities with Azure AD?",
+        "choices": [
+            "A. Microsoft Entra Connect",
+            "B. Microsoft Entra Connect Sync",
+            "C. Active Directory Federation Services",
+            "D. Azure AD B2B"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the purpose of Active Directory Federation Services (ADFS) in Azure AD integration?",
+        "choices": [
+            "A. To synchronize on-premises identities with Azure AD",
+            "B. To manage external collaboration",
+            "C. To enable single sign-on for enterprise applications",
+            "D. To create dynamic user groups"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service allows developers to extend their identity providers to users outside the organization?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD B2B",
+            "C. Azure AD External ID",
+            "D. Azure AD Connect"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary use of Azure AD B2B (Business to Business)?",
+        "choices": [
+            "A. To enable single sign-on for enterprise applications",
+            "B. To manage guest users and external collaboration",
+            "C. To synchronize on-premises identities with Azure AD",
+            "D. To manage licenses in Microsoft Entra ID"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which technology is NOT covered on the AZ-104 exam related to identity management?",
+        "choices": [
+            "A. Microsoft Entra Connect Sync",
+            "B. Azure AD B2C",
+            "C. Microsoft Entra ID Governance",
+            "D. Azure AD External ID"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary function of Azure role-based access control (RBAC)?",
+        "choices": [
+            "A. To manage Azure subscriptions",
+            "B. To create custom roles for applications",
+            "C. To assign permissions to Azure resources",
+            "D. To manage external collaboration"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which role is required to assign custom roles in Azure RBAC?",
+        "choices": [
+            "A. Global Administrator",
+            "B. Subscription Administrator",
+            "C. User Administrator",
+            "D. Service Administrator"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What does Azure Policy enable administrators to do?",
+        "choices": [
+            "A. Manage guest users and external collaboration",
+            "B. Assign permissions to Azure resources",
+            "C. Manage Azure subscriptions",
+            "D. Enforce rules and standards on Azure resources"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service is used to manage the lifecycle of Azure resources?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure AD B2C",
+            "C. Azure Resource Manager",
+            "D. Azure Management Groups"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the purpose of Azure resource locks?",
+        "choices": [
+            "A. To enforce rules and standards on Azure resources",
+            "B. To manage the lifecycle of Azure resources",
+            "C. To prevent accidental deletion or modification of Azure resources",
+            "D. To assign permissions to Azure resources"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure feature allows governance across multiple Azure subscriptions?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure AD External ID",
+            "C. Azure Management Groups",
+            "D. Azure AD B2B"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the main benefit of configuring Azure Management Groups?",
+        "choices": [
+            "A. To manage licenses in Microsoft Entra ID",
+            "B. To manage the lifecycle of Azure resources",
+            "C. To apply governance across multiple Azure subscriptions",
+            "D. To create custom roles for applications"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "How does Azure Policy help ensure effective governance?",
+        "choices": [
+            "A. By enforcing rules and standards on Azure resources",
+            "B. By managing Azure subscriptions",
+            "C. By assigning permissions to Azure resources",
+            "D. By managing external collaboration"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary function of resource tags in Azure?",
+        "choices": [
+            "A. To manage licenses in Microsoft Entra ID",
+            "B. To assign permissions to Azure resources",
+            "C. To apply governance and categorize resources",
+            "D. To create custom roles for applications"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which tool is used to manage Azure resources through scripts and automation?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure PowerShell",
+            "C. Azure AD External ID",
+            "D. Azure Management Groups"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the role of Entra ID Premium P1 or P2 licenses in dynamic group creation?",
+        "choices": [
+            "A. To enable single sign-on for enterprise applications",
+            "B. To manage licenses in Microsoft Entra ID",
+            "C. To automatically add and remove members based on rules",
+            "D. To synchronize on-premises identities with Azure AD"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service is used to manage device identity and access control?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure Policy",
+            "C. Microsoft Intune",
+            "D. Azure AD Join"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the purpose of Azure AD Join?",
+        "choices": [
+            "A. To manage device identity and access control",
+            "B. To manage licenses in Microsoft Entra ID",
+            "C. To manage external collaboration",
+            "D. To assign permissions to Azure resources"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service is used to manage the BitLocker keys for devices?",
+        "choices": [
+            "A. Azure AD B2B",
+            "B. Azure AD External ID",
+            "C. Azure Management Groups",
+            "D. Microsoft Intune"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What action does disabling a device in Azure AD perform?",
+        "choices": [
+            "A. Prevents the user from accessing all Azure resources",
+            "B. Prevents the device from accessing Azure resources",
+            "C. Deletes all details related to the device",
+            "D. Deletes the user's account from Azure AD"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "When creating bulk operations for users in Azure AD, which tool can be used?",
+        "choices": [
+            "A. Azure Policy",
+            "B. Azure AD External ID",
+            "C. Microsoft Graph",
+            "D. Azure Management Groups"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary requirement to assign licenses in Microsoft Entra ID?",
+        "choices": [
+            "A. User must be assigned to the Global Administrator role",
+            "B. User must have a Microsoft Entra ID P1 or P2 license",
+            "C. User must have a Microsoft 365 license",
+            "D. User must have a Microsoft Entra ID Free license"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What must be configured before a license can be assigned to a user in Microsoft Entra ID?",
+        "choices": [
+            "A. User must have their Usage Location property defined",
+            "B. User must be assigned to the Global Administrator role",
+            "C. User must have a Microsoft 365 license",
+            "D. User must have a Microsoft Entra ID Free license"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the User Type for guest users in Azure AD?",
+        "choices": [
+            "A. Regular User",
+            "B. External User",
+            "C. Guest User",
+            "D. Invited User"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What action must a guest user complete to access resources in Azure AD?",
+        "choices": [
+            "A. Complete a first-time consent process",
+            "B. Accept an Azure Policy assignment",
+            "C. Be assigned a dynamic group",
+            "D. Upgrade to a Microsoft 365 license"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What does the Consent Status 'Granted By' represent for guest users in Azure AD?",
+        "choices": [
+            "A. Consent has been granted by a Global Administrator",
+            "B. Consent has been granted by the guest user",
+            "C. Consent has been granted by an External User",
+            "D. Consent has been granted by an Invited User"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which role is required to invite guest users to an Azure AD?",
+        "choices": [
+            "A. Global Administrator",
+            "B. User Administrator",
+            "C. External User",
+            "D. Invited User"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary purpose of Azure AD External ID?",
+        "choices": [
+            "A. To manage guest users and external collaboration",
+            "B. To synchronize on-premises identities with Azure AD",
+            "C. To enable single sign-on for enterprise applications",
+            "D. To create dynamic user groups"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service provides B2B (Business to Business) capabilities?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD External ID",
+            "C. Azure Management Groups",
+            "D. Azure AD B2B"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary function of Azure AD B2C (Business to Consumer)?",
+        "choices": [
+            "A. To manage guest users and external collaboration",
+            "B. To enable single sign-on for enterprise applications",
+            "C. To synchronize on-premises identities with Azure AD",
+            "D. To manage identities for external customers"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is required to synchronize on-premises identities with Azure AD?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD Connect",
+            "C. Azure AD External ID",
+            "D. Azure AD B2B"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service provides identity management for external customers?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD External ID",
+            "C. Azure Management Groups",
+            "D. Azure AD B2B"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary use of Azure AD Identity Protection?",
+        "choices": [
+            "A. To manage guest users and external collaboration",
+            "B. To manage the lifecycle of Azure resources",
+            "C. To provide security insights and automated responses",
+            "D. To synchronize on-premises identities with Azure AD"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service is used to manage access and usage policies for applications?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD External ID",
+            "C. Azure AD Application Proxy",
+            "D. Azure AD B2B"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the role of Azure AD Application Proxy?",
+        "choices": [
+            "A. To manage guest users and external collaboration",
+            "B. To enable single sign-on for on-premises applications",
+            "C. To synchronize on-premises identities with Azure AD",
+            "D. To create dynamic user groups"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "Which Azure service provides a dedicated portal for managing guest users?",
+        "choices": [
+            "A. Azure AD B2C",
+            "B. Azure AD External ID",
+            "C. Azure Management Groups",
+            "D. Azure AD B2B"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Manage Azure identities and governance",
+        "question": "What is the primary function of Azure AD App Registrations?",
+        "choices": [
+            "A. To manage licenses in Microsoft Entra ID",
+            "B. To create custom roles for applications",
+            "C. To synchronize on-premises identities with Azure AD",
+            "D. To register and configure applications for single sign-on"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service is used to securely manage RDP and SSH connectivity to VMs in a virtual network?",
+        "choices": [
+            "A. Azure Firewall",
+            "B. Azure DDoS Network Protection",
+            "C. Azure Bastion",
+            "D. Azure Network Watcher"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the minimum number of subnets required when creating a new VNet using the Azure portal?",
+        "choices": [
+            "A. Zero",
+            "B. One",
+            "C. Two",
+            "D. Three"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which CIDR notation represents the largest IP range?",
+        "choices": [
+            "A. 10.0.0.0/24",
+            "B. 10.0.0.0/16",
+            "C. 10.0.0.0/8",
+            "D. 10.0.0.0/32"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which of the following IP ranges is NOT recommended for use within a VNet?",
+        "choices": [
+            "A. 10.0.0.0/8",
+            "B. 172.16.0.0/12",
+            "C. 192.168.0.0/16",
+            "D. 8.8.8.0/24"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How many IP addresses are reserved by Azure for internal services within each subnet?",
+        "choices": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 5"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must you do to change the address range of a subnet that already has resources deployed?",
+        "choices": [
+            "A. Resize the subnet",
+            "B. Change the CIDR notation",
+            "C. Delete all objects in the subnet",
+            "D. Modify the VNet configuration"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which feature allows direct communication between resources in two separate virtual networks?",
+        "choices": [
+            "A. Network Security Group",
+            "B. VNet Peering",
+            "C. Load Balancer",
+            "D. VPN Gateway"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the default limit of peering connections per VNet?",
+        "choices": [
+            "A. 100",
+            "B. 250",
+            "C. 500",
+            "D. 1000"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides enhanced DDoS attack mitigation?",
+        "choices": [
+            "A. Azure Bastion",
+            "B. Azure Firewall",
+            "C. Azure DDoS Network Protection",
+            "D. Azure Security Center"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which setting must be enabled to allow traffic from one VNet to another via a Network Virtual Appliance (NVA) in a hub VNet?",
+        "choices": [
+            "A. Allow Forwarded Traffic",
+            "B. Allow Gateway Transit",
+            "C. Allow Remote Gateway",
+            "D. Allow Virtual Network Access"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What should be configured to ensure high availability for VMs using a load balancer?",
+        "choices": [
+            "A. Network Security Groups",
+            "B. Public IP Addresses",
+            "C. Backend Pools",
+            "D. Health Probes"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which type of load balancer should be used to distribute traffic within a VNet?",
+        "choices": [
+            "A. Public Load Balancer",
+            "B. Internal Load Balancer",
+            "C. Global Load Balancer",
+            "D. Application Gateway"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which setting on a peering connection allows one VNet to use another VNet's gateway to connect to external networks?",
+        "choices": [
+            "A. Allow Virtual Network Access",
+            "B. Allow Gateway Transit",
+            "C. Use Remote Gateway",
+            "D. Allow Forwarded Traffic"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must be unique within a VNet when configuring a subnet?",
+        "choices": [
+            "A. IP address range",
+            "B. Subnet name",
+            "C. Route table",
+            "D. Network Security Group"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of a network security group (NSG) in a virtual network?",
+        "choices": [
+            "A. To manage DNS settings",
+            "B. To control inbound and outbound traffic",
+            "C. To configure IP address ranges",
+            "D. To enable virtual network peering"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which component must be configured to route traffic between subnets in a VNet?",
+        "choices": [
+            "A. Network Security Group",
+            "B. Load Balancer",
+            "C. User-defined routes",
+            "D. Application Gateway"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How can you prevent overlapping IP address ranges between VNets?",
+        "choices": [
+            "A. Use different CIDR notations",
+            "B. Use Azure Firewall",
+            "C. Use different subnets",
+            "D. Use Network Security Groups"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which tool is used to create and manage VNets and subnets in Azure?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure Portal",
+            "C. Azure PowerShell",
+            "D. All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure feature allows you to view and troubleshoot network issues within a VNet?",
+        "choices": [
+            "A. Network Watcher",
+            "B. Azure Monitor",
+            "C. Azure Advisor",
+            "D. Azure Security Center"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary purpose of a NAT gateway in Azure?",
+        "choices": [
+            "A. To provide DNS services",
+            "B. To route traffic between VNets",
+            "C. To provide outbound internet connectivity",
+            "D. To manage IP address ranges"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides a layer 7 managed firewall?",
+        "choices": [
+            "A. Azure Bastion",
+            "B. Azure Firewall",
+            "C. Azure DDoS Network Protection",
+            "D. Azure Traffic Manager"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does the CIDR notation 192.168.1.0/24 signify?",
+        "choices": [
+            "A. All IP addresses from 192.168.0.0 to 192.168.255.255",
+            "B. All IP addresses from 192.168.1.0 to 192.168.1.255",
+            "C. All IP addresses from 192.168.1.0 to 192.168.1.128",
+            "D. All IP addresses from 192.168.1.0 to 192.168.1.32"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which feature is used to segment a VNet into smaller networks?",
+        "choices": [
+            "A. Subnets",
+            "B. Network Security Groups",
+            "C. Virtual Network Peering",
+            "D. Load Balancers"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must be done before peering two VNets in different regions?",
+        "choices": [
+            "A. Enable gateway transit",
+            "B. Configure a VPN gateway",
+            "C. Ensure non-overlapping IP address ranges",
+            "D. Set up a load balancer"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which command can be used to create a new VNet using Azure CLI?",
+        "choices": [
+            "A. az network vnet create",
+            "B. az network vnet add",
+            "C. az vnet create",
+            "D. az network create"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which IP address range is reserved for private networks?",
+        "choices": [
+            "A. 8.8.8.0/24",
+            "B. 192.168.1.0/24",
+            "C. 203.0.113.0/24",
+            "D. 198.51.100.0/24"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides DNS resolution for VNets?",
+        "choices": [
+            "A. Azure Traffic Manager",
+            "B. Azure DNS",
+            "C. Azure Bastion",
+            "D. Azure Firewall"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What step is necessary to enable VNet-hub to forward traffic to VNet-spoke during VNet peering setup?",
+        "choices": [
+            "A. Enable DDoS protection",
+            "B. Select 'Allow Gateway In Vnet-hub To Forward Traffic To The Peered Virtual Network'",
+            "C. Configure a static IP address",
+            "D. Create a user-defined route"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which pricing tier supports zone-redundant deployment for public IP addresses?",
+        "choices": [
+            "A. Basic",
+            "B. Standard",
+            "C. Premium",
+            "D. Enterprise"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the correct sequence of steps to create a new VNet peering from VNet-hub to VNet-spoke in the Azure portal?",
+        "choices": [
+            "A. Add peering, select subscription, choose virtual network, name peering link, enable remote gateway, click add",
+            "B. Select virtual network, add gateway, create route table, add routes, click apply",
+            "C. Create subnet, enable peering, select subscription, choose virtual network, name peering link, click add",
+            "D. Select subscription, add peering, create network security group, configure rules, click apply"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "When associating a public IP address with a VM, what must be updated in the network interface?",
+        "choices": [
+            "A. DNS settings",
+            "B. Subnet mask",
+            "C. IP configuration",
+            "D. Security group"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How can you ensure a public IP address remains unchanged even if the VM is stopped?",
+        "choices": [
+            "A. Use dynamic IP allocation",
+            "B. Use static IP allocation",
+            "C. Use a private IP address",
+            "D. Assign a DNS label"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a key limitation of specifying a DNS name label for a public IP address?",
+        "choices": [
+            "A. It does not support static IP allocation",
+            "B. It does not support using a vanity domain",
+            "C. It does not support dynamic IP allocation",
+            "D. It only works with IPv6 addresses"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is required for a virtual machine to accept and forward traffic addressed to a different IP address?",
+        "choices": [
+            "A. Enable IP forwarding on the network interface",
+            "B. Configure a static IP address",
+            "C. Create a user-defined route",
+            "D. Add a public IP address"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which next hop type is used to route traffic to a VPN Gateway in a user-defined route?",
+        "choices": [
+            "A. Virtual Network Gateway",
+            "B. Virtual Appliance",
+            "C. Internet",
+            "D. None"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the default action for outbound internet traffic from a virtual network in Azure?",
+        "choices": [
+            "A. Blocked by default",
+            "B. Routed through a VPN Gateway",
+            "C. Allowed without a public IP address",
+            "D. Routed through an ExpressRoute"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of DNS record should be created to avoid updating the DNS entry if the assigned IP address changes?",
+        "choices": [
+            "A. DNS A record",
+            "B. DNS CNAME record",
+            "C. DNS AAAA record",
+            "D. DNS PTR record"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which feature in the Azure portal allows you to see the full details of every network route applied to a network interface?",
+        "choices": [
+            "A. Network Watcher",
+            "B. Effective Routes",
+            "C. Route Tables",
+            "D. Traffic Manager"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which type of user-defined route next hop is typically used to forward traffic to a third-party firewall or load balancer?",
+        "choices": [
+            "A. Internet",
+            "B. Virtual Network Gateway",
+            "C. Virtual Appliance",
+            "D. Virtual Network"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure feature allows for the reservation of a range of public IP addresses for use within a specific region?",
+        "choices": [
+            "A. Public IP prefix",
+            "B. IP range allocation",
+            "C. Subnet reservation",
+            "D. Static IP pool"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "When forced tunneling is configured, what route destination IP prefix is typically overridden?",
+        "choices": [
+            "A. 0.0.0.0/0",
+            "B. 10.0.0.0/8",
+            "C. 192.168.0.0/16",
+            "D. 172.16.0.0/12"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a limitation of the Basic SKU public IP addresses compared to Standard SKU?",
+        "choices": [
+            "A. Only supports static allocation",
+            "B. Cannot be used in zone-redundant deployments",
+            "C. Cannot be assigned to a VM",
+            "D. Only supports IPv6"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service allows you to test connectivity between an Azure VM and another endpoint?",
+        "choices": [
+            "A. Azure Traffic Manager",
+            "B. Network Watcher Connection Troubleshoot",
+            "C. Azure Monitor",
+            "D. Azure Bastion"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What are the benefits of using a public IP address prefix?",
+        "choices": [
+            "A. Lower latency",
+            "B. Easier configuration of firewall rules",
+            "C. Better redundancy",
+            "D. Higher availability"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How does Azure prioritize multiple routes with the same address prefix?",
+        "choices": [
+            "A. By route creation date",
+            "B. By route type with user-defined routes first",
+            "C. By subnet mask length",
+            "D. By resource group name"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure feature provides default routing for VNets without additional configuration?",
+        "choices": [
+            "A. User-defined routes",
+            "B. System routes",
+            "C. BGP routes",
+            "D. ExpressRoute"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which configuration is required to enable traffic routing through a virtual network appliance in Azure?",
+        "choices": [
+            "A. Enable IP forwarding",
+            "B. Create a static IP address",
+            "C. Set up a VPN gateway",
+            "D. Create user-defined routes"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "When creating a public IP address using the Azure portal, which parameter must be the same as the virtual machine or other resource?",
+        "choices": [
+            "A. SKU",
+            "B. Name",
+            "C. Resource group",
+            "D. Location/Region"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What Azure tool helps diagnose network issues like guest firewall configuration and high CPU usage?",
+        "choices": [
+            "A. Network Security Group",
+            "B. Traffic Manager",
+            "C. Connection Troubleshoot",
+            "D. Application Gateway"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which type of DNS record directly maps a domain name to an IP address?",
+        "choices": [
+            "A. CNAME",
+            "B. A",
+            "C. MX",
+            "D. PTR"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the role of a subnet mask in a VNet?",
+        "choices": [
+            "A. Define the range of IP addresses",
+            "B. Act as a default gateway",
+            "C. Allow traffic filtering",
+            "D. Resolve domain names"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "In Azure, what feature should be enabled to protect against distributed denial-of-service (DDoS) attacks?",
+        "choices": [
+            "A. Network Security Group",
+            "B. Application Gateway",
+            "C. DDoS Protection",
+            "D. Traffic Manager"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What protocol does Azure use for route advertisement between on-premises networks and Azure?",
+        "choices": [
+            "A. OSPF",
+            "B. BGP",
+            "C. EIGRP",
+            "D. RIP"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary purpose of Network Watcher's Connection Monitor in Azure?",
+        "choices": [
+            "A. To monitor VM performance",
+            "B. To monitor network security",
+            "C. To monitor the connection status and performance metrics of network connections",
+            "D. To monitor Azure services status"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure resource is used to create and manage inbound and outbound network security rules?",
+        "choices": [
+            "A. Virtual Network",
+            "B. Network Security Group",
+            "C. Application Security Group",
+            "D. Route Table"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the lowest priority value you can set for a custom NSG rule?",
+        "choices": [
+            "A. 0",
+            "B. 100",
+            "C. 4096",
+            "D. 65001"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What property of NSG rules determines the order in which they are applied?",
+        "choices": [
+            "A. Name",
+            "B. Priority",
+            "C. Protocol",
+            "D. Action"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which service tag would you use to allow traffic from Azure Load Balancer health probes?",
+        "choices": [
+            "A. AzureLoadBalancer",
+            "B. AzureTrafficManager",
+            "C. AzureCloud",
+            "D. Internet"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How does Azure automatically update service tags?",
+        "choices": [
+            "A. Through user intervention",
+            "B. Using predefined schedules",
+            "C. Automatically when the IP addresses of the services change",
+            "D. Through Azure Advisor"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does an application security group (ASG) allow you to do?",
+        "choices": [
+            "A. Assign public IP addresses to VMs",
+            "B. Group VMs to apply NSG rules based on those groups",
+            "C. Connect to on-premises networks",
+            "D. Monitor VM performance metrics"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What should you do first to create an application security group (ASG) in Azure?",
+        "choices": [
+            "A. Create a virtual network",
+            "B. Create a resource group",
+            "C. Create an ASG resource",
+            "D. Assign a public IP address"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How do you associate an NSG with a subnet or NIC?",
+        "choices": [
+            "A. Through the Azure portal",
+            "B. Using Azure CLI",
+            "C. Using PowerShell",
+            "D. All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides secure connections to Azure VMs using SSL through a browser?",
+        "choices": [
+            "A. Azure VPN Gateway",
+            "B. Azure Bastion",
+            "C. Azure Firewall",
+            "D. Azure Load Balancer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is required to deploy Azure Bastion in a virtual network?",
+        "choices": [
+            "A. A separate subnet named AzureBastionSubnet",
+            "B. A service endpoint",
+            "C. An application gateway",
+            "D. A VPN gateway"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which tool in Azure provides insight into exactly how NSG rules are being applied?",
+        "choices": [
+            "A. Network Watcher",
+            "B. Effective Security Rules",
+            "C. Azure Monitor",
+            "D. Azure Security Center"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a key benefit of using application security groups (ASGs) over traditional NSG rules?",
+        "choices": [
+            "A. They provide public IP addresses",
+            "B. They allow dynamic grouping of VMs",
+            "C. They reduce the need for subnet planning",
+            "D. They increase network bandwidth"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the first step in creating a network security group (NSG) using the Azure portal?",
+        "choices": [
+            "A. Define security rules",
+            "B. Create a virtual network",
+            "C. Create an NSG resource",
+            "D. Associate the NSG with a subnet or NIC"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which of the following is NOT a default rule in an NSG?",
+        "choices": [
+            "A. Allow Virtual Network traffic",
+            "B. Allow Internet outbound traffic",
+            "C. Allow AzureLoadBalancer inbound traffic",
+            "D. Deny all outbound traffic"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of Azure resource is an NSG considered to be?",
+        "choices": [
+            "A. Compute resource",
+            "B. Networking resource",
+            "C. Storage resource",
+            "D. Identity resource"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does the Azure service tag 'VirtualNetwork' control access to?",
+        "choices": [
+            "A. All connected virtual networks",
+            "B. Public IP addresses",
+            "C. Azure data center public IP space",
+            "D. Storage accounts"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure feature allows you to configure alerts based on network performance metrics exceeding defined thresholds?",
+        "choices": [
+            "A. Network Watcher",
+            "B. Azure Monitor",
+            "C. Azure Bastion",
+            "D. Effective Security Rules"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How can you control traffic to Azure services when IP addresses change frequently?",
+        "choices": [
+            "A. By using service tags",
+            "B. By using static IP addresses",
+            "C. By using route tables",
+            "D. By using Azure Firewall"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary function of an NSG rule priority?",
+        "choices": [
+            "A. To define the network protocol used",
+            "B. To determine the order in which rules are applied",
+            "C. To assign a rule name",
+            "D. To set the action (allow/deny) of the rule"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service can perform similar functions to an NSG but is used for application-level segmentation?",
+        "choices": [
+            "A. Azure Firewall",
+            "B. Azure Application Gateway",
+            "C. Application Security Group",
+            "D. Route Table"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure resource allows for the secure, private connectivity from VMs to Azure services?",
+        "choices": [
+            "A. Azure Load Balancer",
+            "B. Service Endpoints",
+            "C. Application Security Groups",
+            "D. Azure Bastion"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How are NSG rules evaluated when both subnet and NIC rules are applied?",
+        "choices": [
+            "A. Subnet rules first for inbound, NIC rules first for outbound",
+            "B. NIC rules first for inbound, subnet rules first for outbound",
+            "C. Subnet rules first for both inbound and outbound",
+            "D. NIC rules first for both inbound and outbound"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of rules does a network security group (NSG) contain?",
+        "choices": [
+            "A. Inbound and outbound security rules",
+            "B. Routing rules",
+            "C. Application rules",
+            "D. Performance rules"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which of the following Azure services is specifically designed to control access between subnets in a virtual network?",
+        "choices": [
+            "A. Azure Firewall",
+            "B. Network Security Groups",
+            "C. Route Tables",
+            "D. Application Gateway"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which tool can be used to diagnose and troubleshoot VPN Gateway issues in Azure?",
+        "choices": [
+            "A. Network Watcher",
+            "B. Azure Monitor",
+            "C. Azure Bastion",
+            "D. Effective Security Rules"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the benefit of using service endpoints in Azure?",
+        "choices": [
+            "A. To extend your on-premises network to Azure",
+            "B. To provide higher bandwidth for VM-to-VM communication",
+            "C. To secure direct connectivity to Azure services over the Azure backbone network",
+            "D. To load balance traffic to Azure VMs"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which feature helps you group related VMs to simplify network security rule management?",
+        "choices": [
+            "A. Network Security Groups",
+            "B. Route Tables",
+            "C. Application Security Groups",
+            "D. Virtual Network Peering"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure resource can you associate with an NSG to control inbound and outbound traffic?",
+        "choices": [
+            "A. Virtual Network",
+            "B. Public IP address",
+            "C. Subnet",
+            "D. Route Table"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a key advantage of using application security groups over traditional IP-based NSG rules?",
+        "choices": [
+            "A. Reduced latency",
+            "B. Easier management of security rules",
+            "C. Enhanced scalability",
+            "D. Increased encryption"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which component of Azure's networking services allows you to create a secure connection between your on-premises network and Azure VNet?",
+        "choices": [
+            "A. Network Security Group",
+            "B. Virtual Network Peering",
+            "C. Azure VPN Gateway",
+            "D. Application Gateway"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of a route table in Azure networking?",
+        "choices": [
+            "A. To control outbound traffic from VMs",
+            "B. To define rules for packet routing within a VNet",
+            "C. To load balance traffic between VMs",
+            "D. To monitor network performance"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary purpose of Azure Bastion?",
+        "choices": [
+            "A. To manage DNS zones",
+            "B. To connect securely to VMs without a public IP",
+            "C. To configure virtual networks",
+            "D. To manage storage accounts"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which option is selected to test a Bastion connection to a VM?",
+        "choices": [
+            "A. Overview",
+            "B. Properties",
+            "C. Connect",
+            "D. Monitoring"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is displayed on the overview blade of the Bastion resource?",
+        "choices": [
+            "A. Public IP Address",
+            "B. Private DNS Name and Private IP Address",
+            "C. VM Instance Size",
+            "D. Resource Group"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a service endpoint used for?",
+        "choices": [
+            "A. To expose a service to the internet",
+            "B. To optimize routing and preserve private IPs for PaaS services",
+            "C. To connect VMs to the Azure portal",
+            "D. To manage load balancing"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "At what level are service endpoints configured?",
+        "choices": [
+            "A. VM level",
+            "B. VNet level",
+            "C. Subnet level",
+            "D. Resource group level"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "When using a service endpoint, what IP address does the source IP show?",
+        "choices": [
+            "A. Public IP",
+            "B. Private IP",
+            "C. External IP",
+            "D. Virtual IP"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the key benefit of using private endpoints over service endpoints?",
+        "choices": [
+            "A. Uses public IPs",
+            "B. Provides dedicated network interfaces with private IPs for services",
+            "C. Easier to configure",
+            "D. Lower latency"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "In Azure, what is required to configure name resolution for internal communication?",
+        "choices": [
+            "A. Public DNS",
+            "B. Azure DNS or custom DNS servers",
+            "C. Static IP addresses",
+            "D. NAT Gateway"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the role of Azure Load Balancer?",
+        "choices": [
+            "A. Terminate SSL connections",
+            "B. Provide application-level routing",
+            "C. Distribute inbound traffic across a pool of back-end servers",
+            "D. Host DNS zones"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which traffic protocols are supported by Azure Load Balancer?",
+        "choices": [
+            "A. HTTP and HTTPS",
+            "B. TCP and UDP",
+            "C. FTP and SFTP",
+            "D. ICMP and SNMP"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must you configure to enable DNS name resolution in Azure VMs?",
+        "choices": [
+            "A. Private IPs",
+            "B. NSGs",
+            "C. DNS servers",
+            "D. Load balancers"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which DNS service in Azure provides intelligent traffic management?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Azure Traffic Manager",
+            "C. Azure Bastion",
+            "D. Azure Front Door"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is required to host a public DNS zone in Azure?",
+        "choices": [
+            "A. Azure Traffic Manager",
+            "B. Azure DNS",
+            "C. Azure Bastion",
+            "D. Azure Load Balancer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which of the following is a primary use of reverse DNS in Azure?",
+        "choices": [
+            "A. Name resolution from IP to domain",
+            "B. Hosting public DNS zones",
+            "C. Creating NS records",
+            "D. Configuring private endpoints"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the default TTL for DNS records in Azure DNS?",
+        "choices": [
+            "A. 3600 seconds",
+            "B. 1800 seconds",
+            "C. 600 seconds",
+            "D. 300 seconds"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How can you test DNS records in Azure DNS without updating the parent zone?",
+        "choices": [
+            "A. Use Azure Traffic Manager",
+            "B. Use direct DNS queries to Azure-assigned name servers",
+            "C. Configure custom DNS servers",
+            "D. Use NS records"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which DNS record type is used to map a domain name to another domain name?",
+        "choices": [
+            "A. A record",
+            "B. CNAME record",
+            "C. MX record",
+            "D. PTR record"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of load balancing does Azure Load Balancer provide?",
+        "choices": [
+            "A. Layer 7",
+            "B. Layer 4",
+            "C. Layer 3",
+            "D. Layer 2"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a DNS zone?",
+        "choices": [
+            "A. A domain name",
+            "B. A resource in Azure DNS that contains DNS records",
+            "C. A subnet in a VNet",
+            "D. A virtual machine"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Where do you configure NS records to delegate a domain to Azure DNS?",
+        "choices": [
+            "A. In the Azure portal",
+            "B. In the domain registrar's DNS management tool",
+            "C. In the VNet settings",
+            "D. In the Azure Load Balancer settings"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a fully qualified domain name (FQDN)?",
+        "choices": [
+            "A. A DNS record name",
+            "B. A complete domain name ending with a dot",
+            "C. An IP address",
+            "D. A resource group name"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary difference between authoritative and recursive DNS servers?",
+        "choices": [
+            "A. Authoritative servers host DNS records; recursive servers resolve queries",
+            "B. Recursive servers host DNS records; authoritative servers resolve queries",
+            "C. Both host DNS records",
+            "D. Both resolve queries"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service is used to purchase domain names?",
+        "choices": [
+            "A. Azure DNS",
+            "B. App Service Domains",
+            "C. Azure Traffic Manager",
+            "D. Azure Front Door"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does the DNS Time-to-Live (TTL) property specify?",
+        "choices": [
+            "A. How long a DNS record is valid",
+            "B. How often the DNS record is updated",
+            "C. The priority of the DNS record",
+            "D. The type of DNS record"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What Azure feature allows you to use your own DNS servers instead of Azure-provided DNS?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Recursive DNS",
+            "C. Bring your own DNS",
+            "D. DNS forwarding"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does configuring a private endpoint in Azure achieve?",
+        "choices": [
+            "A. Uses a public IP address for communication",
+            "B. Ensures all communication is internal within a VNet using private IPs",
+            "C. Provides DNS name resolution",
+            "D. Configures load balancing"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the main purpose of Azure Traffic Manager?",
+        "choices": [
+            "A. Host DNS zones",
+            "B. Route incoming traffic based on DNS",
+            "C. Distribute inbound traffic across multiple VMs",
+            "D. Manage network security"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a required step to configure an Application Gateway in Azure?",
+        "choices": [
+            "A. Assign a public IP address",
+            "B. Configure an NSG",
+            "C. Create a storage account",
+            "D. Enable diagnostic logs"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What are the two SKU types available for Azure Application Gateway?",
+        "choices": [
+            "A. Basic and Standard",
+            "B. Standard and WAF",
+            "C. Premium and Ultra",
+            "D. Standard and Premium"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of routing does Azure Application Gateway provide?",
+        "choices": [
+            "A. Layer 7",
+            "B. Layer 4",
+            "C. Layer 3",
+            "D. Layer 2"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which protocol is supported by Azure Application Gateway for SSL offloading?",
+        "choices": [
+            "A. HTTP",
+            "B. HTTPS",
+            "C. FTP",
+            "D. UDP"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of the Azure Network Watcher service?",
+        "choices": [
+            "A. To monitor and diagnose network issues",
+            "B. To manage load balancing",
+            "C. To configure DNS settings",
+            "D. To create virtual networks"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which tool in Azure Network Watcher can help diagnose VPN gateway issues?",
+        "choices": [
+            "A. Connection Monitor",
+            "B. VPN Troubleshoot",
+            "C. Network Performance Monitor",
+            "D. Connection Troubleshoot"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What feature of Azure Network Watcher can capture network traffic for a VM?",
+        "choices": [
+            "A. Packet Capture",
+            "B. Traffic Manager",
+            "C. Connection Monitor",
+            "D. Network Diagnostic"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of Azure DDoS Protection?",
+        "choices": [
+            "A. To provide firewall services",
+            "B. To protect applications from DDoS attacks",
+            "C. To manage load balancing",
+            "D. To monitor network traffic"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which two modes are available in Azure DDoS Protection?",
+        "choices": [
+            "A. Basic and Standard",
+            "B. Standard and Premium",
+            "C. Free and Paid",
+            "D. Custom and Automatic"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary function of Azure Route Table?",
+        "choices": [
+            "A. To define routes for inbound traffic",
+            "B. To manage outbound traffic routing",
+            "C. To assign IP addresses",
+            "D. To configure DNS records"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How can you ensure high availability for a VM in Azure?",
+        "choices": [
+            "A. Using a single VM with a public IP",
+            "B. Deploying the VM in an availability set or zone",
+            "C. Configuring a private IP",
+            "D. Using a static IP address"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What Azure service provides a secure connection between on-premises networks and Azure?",
+        "choices": [
+            "A. Azure Traffic Manager",
+            "B. Azure VPN Gateway",
+            "C. Azure DNS",
+            "D. Azure Load Balancer"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which component in Azure is used to define network traffic rules?",
+        "choices": [
+            "A. NSG",
+            "B. VNet",
+            "C. Subnet",
+            "D. Public IP address"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a primary benefit of using Azure ExpressRoute?",
+        "choices": [
+            "A. Direct connectivity to Azure over a private connection",
+            "B. Hosting public DNS zones",
+            "C. Managing DNS resolution",
+            "D. Monitoring network performance"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which routing protocol is supported by Azure ExpressRoute?",
+        "choices": [
+            "A. OSPF",
+            "B. BGP",
+            "C. EIGRP",
+            "D. RIP"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the function of a network security group (NSG) in Azure?",
+        "choices": [
+            "A. To host DNS zones",
+            "B. To monitor network traffic",
+            "C. To define and enforce network security rules",
+            "D. To create subnets"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How do you allow a specific IP address to access a VM in Azure?",
+        "choices": [
+            "A. Configure a rule in the VM's NSG",
+            "B. Assign a public IP",
+            "C. Create a new VNet",
+            "D. Use a load balancer"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What does an Azure VNet peering allow?",
+        "choices": [
+            "A. Direct connectivity between VNets without using a gateway",
+            "B. DNS resolution",
+            "C. Load balancing",
+            "D. Network monitoring"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Where does Azure store the fully qualified domain name (FQDN) for virtual machines (VMs) using its built-in DNS service?",
+        "choices": [
+            "A. On the VM itself",
+            "B. In Azure Blob Storage",
+            "C. In the Azure DNS zone",
+            "D. In the Azure SQL Database"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which IP address does Azure use for its built-in DNS service?",
+        "choices": [
+            "A. 168.63.129.16",
+            "B. 192.168.1.1",
+            "C. 10.0.0.1",
+            "D. 172.16.0.1"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of the DNS suffix in Azure VM networking?",
+        "choices": [
+            "A. To provide external DNS resolution",
+            "B. To manage VM permissions",
+            "C. To identify the VM's location within Azure",
+            "D. To resolve VM names within the virtual network"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides DNS resolution for VMs within a virtual network?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Azure AD Domain Services",
+            "C. Azure Load Balancer",
+            "D. Azure Traffic Manager"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "How are DNS servers configured for VMs in Azure?",
+        "choices": [
+            "A. At the subnet level",
+            "B. At the resource group level",
+            "C. At the virtual network level",
+            "D. At the individual VM level"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which setting allows you to override DNS settings at the virtual network level?",
+        "choices": [
+            "A. Custom IP settings",
+            "B. Virtual network DNS servers",
+            "C. Azure DNS resolver",
+            "D. Azure DNS forwarders"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "When using custom DNS servers, what must these servers support to ensure internet DNS resolution from Azure VMs?",
+        "choices": [
+            "A. Recursive DNS resolution",
+            "B. Azure DNS integration",
+            "C. Dynamic DNS registration",
+            "D. Reverse DNS lookup"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is required when making changes to DNS settings at the virtual network level in Azure?",
+        "choices": [
+            "A. Restarting all VMs in the virtual network",
+            "B. Updating Azure DNS zones",
+            "C. Restarting DNS servers",
+            "D. Updating Azure Traffic Manager"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure tool is used to configure custom DNS settings for a virtual network?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure DNS Manager",
+            "C. Azure Portal",
+            "D. Azure PowerShell"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What type of DNS zone in Azure supports name resolution for internet-facing domains?",
+        "choices": [
+            "A. Public DNS zone",
+            "B. Private DNS zone",
+            "C. Custom DNS zone",
+            "D. Hybrid DNS zone"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which feature allows Azure DNS to automatically register VMs into a DNS zone?",
+        "choices": [
+            "A. Private DNS zones",
+            "B. Dynamic DNS queries",
+            "C. Azure DNS integration",
+            "D. Virtual network links"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the significance of the DNS suffix in Azure VMs using Azure-provided DNS?",
+        "choices": [
+            "A. It's used to authenticate VMs",
+            "B. It identifies the Azure region",
+            "C. It's used for internal DNS resolution",
+            "D. It specifies the DNS zone"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which load balancer SKU will retire in September 2025?",
+        "choices": [
+            "A. Standard",
+            "B. Gateway",
+            "C. Basic",
+            "D. Classic"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the minimum probe interval supported by Azure Load Balancer for HTTP and HTTPS probes?",
+        "choices": [
+            "A. 2 seconds",
+            "B. 5 seconds",
+            "C. 10 seconds",
+            "D. 15 seconds"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides traffic distribution for internet-facing and intranet applications?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Azure Application Gateway",
+            "C. Azure Traffic Manager",
+            "D. Azure Load Balancer"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which load balancer tier supports zone-redundant deployment options?",
+        "choices": [
+            "A. Basic",
+            "B. Standard",
+            "C. Gateway",
+            "D. Classic"
+        ],
+        "correct": 1
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of inbound NAT rules in Azure Load Balancer?",
+        "choices": [
+            "A. To distribute inbound traffic across backend servers",
+            "B. To balance outbound traffic across frontend servers",
+            "C. To allow direct connectivity to backend servers via the frontend IP",
+            "D. To block specific traffic from the backend pool"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which load-balancing rule setting defines how inbound connections are distributed between backend instances?",
+        "choices": [
+            "A. Load-balancing algorithm",
+            "B. Session persistence",
+            "C. Idle timeout",
+            "D. Health probe"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure tool can be used to configure load-balancing rules?",
+        "choices": [
+            "A. Azure CLI",
+            "B. Azure Load Balancer Manager",
+            "C. Azure Traffic Manager",
+            "D. Azure Portal"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the function of health probes in Azure Load Balancer?",
+        "choices": [
+            "A. To monitor the status of backend servers",
+            "B. To distribute traffic based on client location",
+            "C. To manage DNS resolution for backend services",
+            "D. To enforce NSG rules on backend servers"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which load-balancing tier is recommended for applications requiring scale, features, and zone-redundant deployment options?",
+        "choices": [
+            "A. Gateway",
+            "B. Classic",
+            "C. Basic",
+            "D. Standard"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must be configured to enable load balancing in Azure?",
+        "choices": [
+            "A. Azure AD authentication",
+            "B. Network security groups (NSGs)",
+            "C. User-defined routes (UDRs)",
+            "D. Azure Load Balancer"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure feature ensures backend servers only receive traffic when determined healthy?",
+        "choices": [
+            "A. Health probes",
+            "B. Inbound NAT rules",
+            "C. Load-balancing rules",
+            "D. Network security groups (NSGs)"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the primary role of Azure DNS in a virtual network?",
+        "choices": [
+            "A. To manage VM storage",
+            "B. To configure VM networking",
+            "C. To provide DNS resolution for VMs",
+            "D. To manage Azure subscriptions"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides a fully managed DNS service?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Azure Application Gateway",
+            "C. Azure Load Balancer",
+            "D. Azure Traffic Manager"
+        ],
+        "correct": 0
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is the purpose of a DNS zone in Azure?",
+        "choices": [
+            "A. To manage virtual network settings",
+            "B. To control Azure subscription access",
+            "C. To host domain names and map to IP addresses",
+            "D. To manage Azure DNS resolution"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which load-balancing rule type allows distributing traffic based on session information?",
+        "choices": [
+            "A. Source IP",
+            "B. Destination IP",
+            "C. Session affinity",
+            "D. Round-robin"
+        ],
+        "correct": 2
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What must be done when migrating VMs to a different Azure region to ensure DNS resolution remains functional?",
+        "choices": [
+            "A. Update the DNS suffix",
+            "B. Update the virtual network gateway",
+            "C. Reconfigure IP addressing",
+            "D. Update DNS zone records"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "Which Azure service provides private DNS zone management?",
+        "choices": [
+            "A. Azure DNS",
+            "B. Azure Traffic Manager",
+            "C. Azure Load Balancer",
+            "D. Azure DNS Private Zones"
+        ],
+        "correct": 3
+    },
+    {
+        "category": "Configure and manage virtual networking",
+        "question": "What is a feature of Azure Load Balancer's Standard SKU that is not available in the Basic SKU?",
+        "choices": [
+            "A. Zone-redundant deployment",
+            "B. Inbound NAT rules",
+            "C. Idle timeout configuration",
+            "D. HTTP/HTTPS health probes"
+        ],
+        "correct": 0
+    }
+]
